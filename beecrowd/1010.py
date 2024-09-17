@@ -1,0 +1,10 @@
+codigo,prod_1,valor=input('').split()
+codigo_2,prod_2,valor_2=input('').split()
+codigo=int(codigo)
+prod_1=int(prod_1)
+valor=float(valor)   #OK
+codigo_2=int(codigo_2)
+prod_2=int(prod_2)
+valor_2=float(valor_2)
+soma=(prod_1*valor)+(prod_2*valor_2)
+print(f'VALOR A PAGAR: R$ {soma:.2f}')

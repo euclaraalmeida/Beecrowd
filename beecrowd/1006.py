@@ -1,0 +1,9 @@
+a=float(input(''))
+b=float(input(''))
+c=float(input(''))
+peso1=2
+peso2=3 #ok
+peso3=5
+num=(a*peso1)+(b*peso2)+(c*peso3)
+media=num/(peso1+peso2+peso3)
+print(f'MEDIA = {media:.1f}')
